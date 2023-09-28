@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Curso2">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="21dp"
+        android:text="Bienvenidos al Curso"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="213dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ciber"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="48dp"
+        android:text="La ciberseguridad se refiere al conjunto de conocimientos, técnicas y prácticas que se enseñan para proteger sistemas, redes, datos y recursos digitales de amenazas y ataques cibernéticos. En este curso de ciberseguridad, los estudiantes aprenden cómo identificar, prevenir y mitigar los riesgos asociados a la seguridad de la información en el entorno digital. Este curso es esencial en un mundo digital cada vez más interconectado, donde la protección de la información sensible y la prevención de ciberataques son cruciales para individuos, empresas y organizaciones gubernamentales. Proporciona a los estudiantes las habilidades necesarias para abordar los desafíos y amenazas en línea y contribuir a la seguridad de la información en la era digital."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>

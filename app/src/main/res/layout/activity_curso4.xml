@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Curso4">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="21dp"
+        android:text="Bienvenidos al Curso"
+        app:layout_constraintBottom_toTopOf="@+id/imageView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="213dp"
+        android:layout_height="181dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="66dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/java9"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="48dp"
+        android:text="Este curso es una oportunidad para aprender uno de los lenguajes de programación más versátiles y ampliamente utilizados en la industria del desarrollo de software. Durante el curso, los estudiantes se sumergen en el mundo de Java, comenzando con una introducción a los conceptos básicos del lenguaje. Aprenden sobre la sintaxis y estructura del código, incluyendo variables, tipos de datos, operadores y estructuras de control como bucles y condicionales.
+
+Una parte fundamental del curso es la programación orientada a objetos (POO), ya que Java es un lenguaje orientado a objetos. Los estudiantes exploran conceptos como clases, objetos, herencia, polimorfismo y encapsulación. Además, se les introduce en el uso de la biblioteca estándar de Java, que proporciona una amplia gama de clases y métodos para realizar tareas comunes, desde entrada/salida hasta manejo de excepciones."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
